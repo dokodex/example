@@ -7,6 +7,10 @@ $header-menu-font-color2:$color-gray-content;
 $header-menu-link-box-shadow:$box-shadow-litle;
 $icon-menu-color:$color-white;
 
+body{
+  margin:0;
+}
+
 .header{
   align-items: center;
   max-width: $header-max-width;

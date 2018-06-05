@@ -3,6 +3,9 @@
   font-style: normal;
   src: url("../../imports/typography/Montserrat-Bold.ttf"); }
 
+body {
+  margin: 0; }
+
 .header {
   align-items: center;
   max-width: 1280px;
