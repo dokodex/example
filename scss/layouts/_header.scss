@@ -11,6 +11,13 @@ body{
   margin:0;
 }
 
+.vcenter{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column
+}
+
 .header{
   align-items: center;
   max-width: $header-max-width;
@@ -62,7 +69,6 @@ body{
   transition: opacity .2s, visibility .2s;
   vertical-align: middle;
 }
-
 
 .icon--menu{
   height: 1.5rem;
